@@ -5,9 +5,6 @@ import AuthContext from "../../contexts/authContext";
 import  useForm from '../../hooks/useForm';
 import React from "react";
 
-//import { toast } from "react-toastify";
-//import "./Login.css";
-
 export default function Login() {
 
     const { loginSubmitHandler } = useContext(AuthContext);
